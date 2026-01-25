@@ -1,0 +1,583 @@
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media (max-width: 991px) {
+
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .ofcavas-menu {
+        display: block;
+    }
+
+    .main_nav {
+        padding: 1rem 2.5rem 1rem 2rem;
+    }
+
+    .hero_overlay {
+        padding: 10rem 5rem;
+    }
+
+    .coin_item {
+        padding: 0.5rem 4.5rem 6rem;
+    }
+
+    .coin_logo {
+        gap: 2.5rem;
+    }
+
+    .coin_icon img {
+        width: 9.6rem;
+    }
+
+    .coin_main {
+        padding: 4.5rem 4.4rem
+    }
+
+    .about_item {
+        text-align: center;
+    }
+
+    .about_cnt {
+        max-width: 52rem;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .choose_overlay {
+        padding: 8rem 4.5rem;
+    }
+
+    .choose_item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .choose_card {
+        margin-bottom: 3.6rem;
+    }
+
+    .choose_overlay {
+        padding-bottom: 4rem;
+    }
+
+    .choose_title h3 {
+        font-size: 4.8rem;
+        max-width: 60rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .choose_shape1 img {
+        width: 20rem;
+    }
+
+    .hero_cnt h2,
+    .about_cnt h3,
+    .roadmap_title h3 {
+        font-size: 5.2rem;
+    }
+
+    .choose_card p {
+        font-size: 1.9rem;
+    }
+
+    .roadmap_inner1 img {
+        width: 26rem;
+    }
+
+    .roadmap_content1 {
+        gap: 0rem;
+        left: 4rem;
+    }
+
+    .roadmap_content2 {
+        gap: 2rem;
+        right: 4.5rem;
+        top: 16rem;
+    }
+
+    .roadmap_inner2 img {
+        width: 20rem;
+    }
+
+    .roadmap_content3 {
+        gap: 1rem;
+        top: 32rem;
+        left: 4rem;
+    }
+
+    .roadmap_inner3 img {
+        width: 19rem;
+    }
+
+    .roadmap_content4 {
+        gap: 2rem;
+        right: 4rem;
+        bottom: 2.5rem;
+    }
+
+    .roadmap_inner4 img {
+        width: 23rem;
+    }
+
+    .tokenomics_overlay {
+        padding: 4rem 4rem 5.5rem;
+    }
+
+    .tokenomics_box {
+        gap: 2.5rem;
+    }
+
+    .tokenomics_title h3 {
+        font-size: 4.6rem;
+    }
+
+    .tokenomics_left {
+        max-width: 54rem;
+    }
+
+    .tokenomics_right img {
+        width: 30rem;
+    }
+
+    .faq_title h3 {
+        font-size: 4.6rem;
+        max-width: 80rem;
+    }
+
+    .footer_menu ul {
+        gap: 5.4rem;
+    }
+
+    .footer_bottom p {
+        max-width: 34rem;
+    }
+
+    .copyright_item {
+        padding: 1.6rem 0rem 2rem;
+    }
+
+    .copyright_item ul {
+        gap: 1rem;
+    }
+
+    .copyright_item ul img {
+        width: 4.8rem;
+    }
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    html {
+        font-size: 0.95vw;
+    }
+
+    .custom_container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* updated new code  */
+
+
+
+    .roadmap_img {
+        display: none;
+    }
+
+    .roadmap_content1,
+    .roadmap_content2,
+    .roadmap_content3,
+    .roadmap_content4 {
+        position: initial;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .roadmap_item {
+        padding: 0 41px;
+    }
+    .roadmap_cnt h4 {
+        max-width: 100%;
+    }
+
+    .about_cnt h4 {
+        font-size: 30px;
+        max-width: 350px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+    html {
+        font-size: 2.1vw;
+    }
+
+    .custom_container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .main_nav {
+        padding: 1rem 2rem 1rem 1.6rem;
+    }
+
+    .hero_main {
+        border-radius: 3rem;
+    }
+
+    .hero_overlay {
+        padding: 8rem 2.5rem 6rem;
+        border-radius: 2.5rem;
+    }
+
+    .hero_cnt h2, 
+    .about_cnt h3, 
+    .roadmap_title h3 {
+        font-size: 3.5rem;
+    }
+
+    .hero_cnt ul {
+        display: block;
+    }
+
+     .hero_cnt ul li a {
+        min-width: 32rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero_area {
+        padding-top: 11rem;
+    }
+
+    .coin_area {
+        padding-top: 3rem;
+    }
+
+    .coin_main {
+        padding: 2.4rem 2rem;
+        border-radius: 2.5rem;
+    }
+
+    .coin_box {
+        border-radius: 2rem;
+    }
+
+    .coin_title {
+        padding: 3.2rem 1.5rem
+    }
+
+    .coin_title h3 span {
+        background: #4E4239;
+        padding: 0rem 1rem;
+    }
+
+    .coin_title h3 {
+        font-size: 2.5rem;
+    }
+
+    .coin_title p {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .coin_item {
+        padding: 0.5rem 2rem 4rem;
+    }
+
+    .coin_logo {
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+
+    .coin_icon {
+        width: 25%;
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .coin_icon img {
+        width: 6.5rem;
+    }
+
+    .coin_dropdown {
+        padding: 2.5rem 0rem 1.6rem;
+        display: block;
+    }
+
+    .coin_dropBtn {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .coin_field {
+        display: block;
+    }
+
+    .coin_cnt {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .coin_dropBtn button,
+    .coin_cnt label,
+    .coin_inner input {
+        font-size: 2.1rem;
+    }
+
+    .coin_inner .logo2 {
+        width: 5rem;
+    }
+
+    .coin_dropBtn button span img {
+        width: 6rem;
+    }
+
+    .coin_dropBtn button .down_icon img {
+        width: 1.8rem;
+    }
+
+    .coin_inner {
+        height: 7.5rem;
+    }
+
+    .coin_btn {
+        padding-top: 0.2rem;
+    }
+
+    .about_shape1 img {
+        width: 14rem;
+    }
+
+    .about_area,
+    .choose_area,
+    .roadmap_area {
+        padding-top: 3.5rem;
+    }
+
+    .about_overlay {
+        padding: 5.5rem 3rem 6.5rem;
+    }
+
+    .about_item img {
+        width: 22rem;
+    }
+
+    .about_shape2 img {
+        width: 9rem;
+    }
+
+    .about_cnt {
+        position: relative;
+        z-index: 9;
+    }
+
+    .choose_overlay {
+        padding: 6rem 2rem;
+    }
+
+    .choose_shape1 img {
+        width: 7rem;
+        top: 1rem;
+    }
+
+    .choose_shape2 img {
+        width: 12rem;
+    }
+
+    .choose_title h3 {
+        font-size: 3.5rem;
+        position: relative;
+        z-index: 9;
+    }
+
+    .choose_item {
+        grid-template-columns: 1fr;
+    }
+
+    .roadmap_main {
+        padding: 6rem 0rem 8rem;
+    }
+
+    .roadmap_img {
+        display: none;
+    }
+
+    .roadmap_item {
+        padding: 0rem 2rem
+    }
+
+    .roadmap_content1,
+    .roadmap_content2,
+    .roadmap_content3,
+    .roadmap_content4 {
+        position: initial;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .roadmap_cnt h4 {
+        font-weight: 1.65rem;
+    }
+
+    .roadmap_cnt p {
+        font-size: 2.2rem;
+    }
+
+    .roadmap_inner1 img {
+        width: 24rem
+    }
+
+    .roadmap_inner2 img {
+        width: 18rem;
+    }
+    
+    .roadmap_inner3 img {
+        width: 17rem;
+    }
+
+    .roadmap_inner4 img {
+        width: 21rem;
+    }
+
+    .roadmap_content2 {
+        margin: 3.5rem 0;
+    }
+
+    .roadmap_content4 {
+        margin-top: 3.5rem;
+    }
+
+    .tokenomics_area,
+    .team_area,
+    .faq_area {
+        padding-top: 3.5rem;
+    }
+
+    .tokenomics_overlay {
+        padding: 4rem 2rem 3rem;
+    }
+
+    .tokenomics_shape1 img,
+    .tokenomics_shape2 img {
+        width: 12rem;
+    }
+
+    .tokenomics_title h3 {
+        font-size: 3.2rem;
+    }
+
+    .tokenomics_box {
+        flex-direction: column-reverse;
+        padding: 3rem 2rem;
+    }
+
+    .tokenomics_left {
+        max-width: 100%;
+    }
+
+    .tokenomics_right img {
+        width: 25rem;
+    }
+
+    .team_overlay {
+        padding: 4rem 3rem 5rem;
+    }
+
+    .team_shape1 img {
+        width: 11rem;
+    }
+
+    .team_shape2 img {
+        width: 12rem;
+    }
+
+    .faq_overlay {
+        padding: 4rem 2rem 5rem;
+    }
+
+    .faq_title h3 {
+        font-size: 2.5rem;
+    }
+
+    .accordian_item {
+        padding: 3rem 2rem;
+        border-radius: 1.6rem;
+    }
+
+    .footer_title h3 {
+        font-size: 2.6rem;
+    }
+
+    .footer_menu ul {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .copyright_item {
+        margin-top: 0rem;
+        flex-direction: column-reverse;
+        padding: 4rem 0rem 4rem;
+    }
+
+    .copyright_item p {
+        margin-top: 2rem;
+    }
+
+    .back-to-top {
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+    .team_title h3 {
+        font-size: 2.8rem;
+    }
+
+    .owl-nav .owl-prev {
+        left: -2rem;
+    }
+
+    .owl-nav .owl-next {
+        right: -2rem;
+    }
+
+    /* updated new code  */
+
+    .roadmap_cnt.aos-init.aos-animate {
+        order: 2;
+    }
+    .tokenomics_cnt h5 {
+        font-size: 16px;
+    }
+    .team_item {
+        min-height: auto;
+    }
+
+    .footer_bottom p {
+        max-width: 16rem;
+    }
+    .footer_bottom p {
+        font-size: 16px;
+    }
+
+    .about_cnt h4 {
+        font-size: 24px;
+        max-width: 283px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        line-height: 22px;
+    }
+}
