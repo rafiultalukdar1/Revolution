@@ -86,6 +86,7 @@
         });
 
 
+        // Owl Carousel ----------
         $(".owl-carousel").owlCarousel({
             items: 3,
             autoplay: false,

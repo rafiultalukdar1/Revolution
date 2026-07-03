@@ -1,4 +1,4 @@
-/*====================== Web fonts ========================*/
+/* Web fonts */
 @font-face {
 	font-family: 'Gilroy';
 	src: url(../webfonts/Gilroy-Black.ttf);
@@ -53,7 +53,6 @@
 	src: url(../webfonts/Phonk.otf);
 }
 
-/*====================== Basic css ========================*/
 :root {
 	scroll-behavior: unset;
 	--Gilroy: 'Gilroy';
@@ -145,7 +144,6 @@ img {
 	}
 }
 
-/* body */
 body {
 	font-family: var(--Gilroy);
 	font-size: 1.6rem;
@@ -155,23 +153,21 @@ body {
 	overflow-x: hidden;
 }
 
-/* custom_container */
 .custom_container {
 	padding-left: 4.4rem;
 	padding-right: 4.4rem;
 }
 
-/*========== return-to-top ==========*/
 .back-to-top {
-	width: 4.5rem;
-	height: 4.5rem;
-	line-height: 4.4rem;
+	width: 4rem;
+	height: 4rem;
+	line-height: 4rem;
 	font-size: 2rem;
 	text-align: center;
 	display: none;
 	position: fixed;
-	bottom: 3rem;
-	right: 3rem;
+	bottom: 2.5rem;
+	right: 2.5rem;
 	border-radius: 50%;
 	background: var(--orangeDark);
 	color: #FFF;
@@ -181,10 +177,10 @@ body {
 }
 
 .back-to-top:hover {
-	box-shadow: 0rem 0rem 3rem #A86C1E;
+	box-shadow: 0rem 0rem 2.5rem #A86C1E;
 }
 
-/*===================== header_area start =======================*/
+/* header_area start */
 .header_area {
 	width: 100%;
 	display: block;
@@ -320,7 +316,7 @@ body {
 	font-size: 2rem;
 }
 
-/*=================== hero_area start =====================*/
+/* hero_area start */
 .hero_area {
 	padding-top: 12.4rem;
 	position: relative;
@@ -418,7 +414,7 @@ body {
 	border-color: #A86C1E;
 }
 
-/*===================== coin_area start =======================*/
+/* coin_area start */
 .coin_area {
 	padding-top: 4.5rem;
 	background-position: center;
@@ -654,7 +650,7 @@ body {
 	opacity: 0.85;
 }
 
-/*====================== about_area start ========================*/
+/* about_area start */
 .about_area {
 	padding-top: 4.2rem;
 }
@@ -721,7 +717,7 @@ body {
 	width: 100%;
 }
 
-/*==================== choose_area start ======================*/
+/* choose_area start */
 .choose_area {
 	padding-top: 4.2rem;
 }
@@ -828,7 +824,7 @@ body {
 	margin-top: -4.5rem;
 }
 
-/*==================== roadmap_area start ======================*/
+/* roadmap_area start */
 .roadmap_area {
 	padding-top: 4rem;
 }
@@ -934,7 +930,7 @@ body {
 	width: 29.7rem;
 }
 
-/*===================== tokenomics_area start =======================*/
+/* tokenomics_area start */
 .tokenomics_area {
 	padding-top: 4.2rem;
 }
@@ -1074,7 +1070,7 @@ body {
 	color: #D3C740;
 }
 
-/*==================== team_area start ======================*/
+/* team_area start */
 .team_area {
 	padding-top: 4.2rem;
 }
@@ -1178,7 +1174,7 @@ body {
 	transform: translateY(-50%);
 }
 
-/*===================== faq_area start =======================*/
+/* faq_area start */
 .faq_area {
 	padding-top: 4.2rem;
 }
@@ -1427,23 +1423,27 @@ body {
 	text-align: center;
 }
 
-/*======== updated new code ========= */
+/* updated new code */
 
 .main-wrapper {
 	background: url(../images/full-backgrond.png) no-repeat;
 	background-position: 50% 50vh;
 	background-size: cover;
 }
+
 .roadmap_cnt ul {
 	max-width: 269px;
 	list-style: disc;
 }
+
 .roadmap_cnt {
 	padding-top: 35px;
 }
+
 .roadmap_cnt ul li {
 	font-size: 12px;
 }
+
 .tokenomics_cnt h5 {
 	color: #140401;
 	font-size: 20px;
@@ -1459,6 +1459,7 @@ body {
 	border-radius: 1.5rem;
 	margin-top: 2rem;
 }
+
 .tokenomics_bar7 {
 	width: 100%;
 	background: #F9E936;
@@ -1466,6 +1467,7 @@ body {
 	border-radius: 1.5rem;
 	margin-top: 2rem;
 }
+
 .tokenomics_bar8 {
 	width: 100%;
 	background: #E2DFC0;
@@ -1481,6 +1483,7 @@ body {
 .team_row .owl-stage {
 	display: flex;
 }
+
 .team_row .owl-item {
 	display: flex;
 }
